@@ -1,3 +1,4 @@
+import Education from "../components/Education/Education";
 import Experience from "../components/Exprience/Exprience";
 import HeroSection from "../components/hero/hero";
 import SkillsSection from "../components/Skills/Skills";
@@ -9,6 +10,7 @@ export default function Home() {
     <HeroSection></HeroSection>
     <Experience/>
     <SkillsSection/>
+    <Education/>
   </div>
   </>;
 }
