@@ -3,38 +3,18 @@ import { Briefcase, Calendar, ChevronRight } from 'lucide-react';
 
 const EXPERIENCES = [
   {
-    company: 'Shakil Education Group',
-    role: 'Full Stack Developer',
-    period: 'Feb 2026 - Present',
+    company: 'Softvence Agency (Betopia Group)',
+    role: 'Webflow Developer',
+    period: 'Oct 2025 - June 2026',
     points: [
-      'Developing and maintaining proprietary software solutions.',
-      'Working as a Full Stack Developer with a primary focus on backend development.',
-      'Successfully delivering and completing client projects.'
+      'Designed, developed, and maintained responsive websites using Webflow, ensuring cross-device compatibility and fast loading.',
+      'Managed content updates, data entry, and digital asset organization with high accuracy.',
+      'Collaborated with design and development teams to deliver projects on schedule.',
+      'Prepared daily/weekly progress reports and communicated with clients for feedback and revisions.',
+      'Handled multiple tasks simultaneously in a fast-paced environment while maintaining quality.'
     ]
   },
-  {
-    company: 'SM Technology',
-    role: 'Backend Developer',
-    period: 'Jun 2025 - Jan 2026',
-    points: [
-      'Working with clients live, understanding their needs, and implementing solutions.',
-      'Completed ~10 projects across Ecommerce, Portfolio, LMS Real-time Chat applications and so on.',
-      'Exploring and implementing new technologies as encountered.',
-      'Keeping backend optimized with minimal response time and proper validation.',
-      'Writing clean, reusable, and readable frontend code component-wise.'
-    ]
-  },
-  {
-    company: 'Developer Look',
-    role: 'Junior Web Developer',
-    period: 'Jun 2024 - Jan 2025',
-    points: [
-      'Developed and optimised responsive UI components using Next.js, ShadCN, and Tailwind CSS.',
-      'Implemented AI-assisted development workflows using v0.dev to enhance efficiency.',
-      'Improved prompt engineering for AI-generated components, leading to better automation.',
-      'Contributed to full front-end projects, ensuring scalability and performance.'
-    ]
-  }
+
 ];
 
 export default function ExperienceSection() {
