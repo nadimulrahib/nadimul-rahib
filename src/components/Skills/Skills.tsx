@@ -87,7 +87,7 @@ const SKILL_CATEGORIES = [
 
 export default function SkillsSection() {
   return (
-    <section className="relative w-full bg-background text-foreground py-20 overflow-hidden font-sans">
+    <section id="Skills" className="relative w-full bg-background text-foreground py-20 overflow-hidden font-sans">
       {/* ব্যাকগ্রাউন্ড ডেকোরেটিভ গ্রিন গ্লো ওর্বস */}
       <div className="absolute top-1/4 -right-32 w-96 h-96 bg-emerald-500/5 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 -left-32 w-96 h-96 bg-emerald-500/5 rounded-full blur-[120px] pointer-events-none" />

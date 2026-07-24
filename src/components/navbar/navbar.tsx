@@ -12,9 +12,10 @@ interface NavLink {
 const LINKS: NavLink[] = [
   { label: "Home", href: "#Home" },
   { label: "Experience", href: "#Experience" },
+  { label: "Skills", href: "#Skills" },
   { label: "Projects", href: "#Projects" },
   { label: "Education", href: "#Education" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "#Contact" },
 ];
 
 export default function Navbar() { 
@@ -154,8 +155,9 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+
           <Link
-            href="#contact"
+            href="mailto:nadimulrahib38@gmail.com0"
             onClick={() => setOpen(false)}
             className="mt-2 inline-flex items-center justify-center gap-1.5 rounded-full bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground"
           >

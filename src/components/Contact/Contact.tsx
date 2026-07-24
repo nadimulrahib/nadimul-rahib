@@ -40,7 +40,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section className="relative w-full bg-background text-foreground py-24 overflow-hidden font-sans">
+    <section id="Contact" className="relative w-full bg-background text-foreground py-24 overflow-hidden font-sans">
       <div className="absolute top-1/3 -left-32 w-96 h-96 bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/3 -right-32 w-96 h-96 bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 
