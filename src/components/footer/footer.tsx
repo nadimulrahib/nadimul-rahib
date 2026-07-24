@@ -4,10 +4,10 @@ import {  Phone, Mail, MapPin } from "lucide-react";
 import { FaGithub as Github, FaLinkedin as LinkedIn } from "react-icons/fa";
 // কুইক লিঙ্কের ডেটা অ্যারে
 const QUICK_LINKS = [
-  { label: "About", href: "#about" },
-  { label: "Expertise", href: "#expertise" },
-  { label: "Experience", href: "#experience" },
-  { label: "Projects", href: "#projects" },
+  { label: "Home", href: "#Home" },
+  { label: "Experience", href: "#Experience" },
+  { label: "Projects", href: "#Projects" },
+  { label: "Education", href: "#Education" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -42,7 +42,7 @@ export default function Footer() {
           {/* ২য় কলাম: কুইক লিঙ্কসমূহ */}
           <div className="flex flex-col gap-4">
             <h3 className="flex items-center gap-2 text-sm font-semibold tracking-wider text-foreground uppercase">
-              <span className="h-4 w-[3px] rounded-full bg-primary" /> {/* নীল ইন্ডিকেটর বার */}
+              <span className="h-4 w-0.75 rounded-full bg-primary" /> {/* নীল ইন্ডিকেটর বার */}
               Quick Links
             </h3>
             <ul className="flex flex-col gap-2.5 text-sm">
@@ -59,7 +59,7 @@ export default function Footer() {
           {/* ৩য় কলাম: কন্টাক্ট ইনফো */}
           <div className="flex flex-col gap-4">
             <h3 className="flex items-center gap-2 text-sm font-semibold tracking-wider text-foreground uppercase">
-              <span className="h-4 w-[3px] rounded-full bg-primary" /> {/* নীল ইন্ডিকেটর বার */}
+              <span className="h-4 w-0.75 rounded-full bg-primary" /> {/* নীল ইন্ডিকেটর বার */}
               Contact Info
             </h3>
             <ul className="flex flex-col gap-3 text-sm">
