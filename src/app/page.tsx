@@ -1,11 +1,12 @@
+import Experience from "../components/Exprience/Exprience";
 import HeroSection from "../components/hero/hero";
-import { Button } from "../components/ui/button";
 
 export default function Home() {
   return <>
   
   <div>
     <HeroSection></HeroSection>
+    <Experience/>
   </div>
   </>;
 }
