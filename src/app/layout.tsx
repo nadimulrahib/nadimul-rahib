@@ -80,7 +80,26 @@ export default function RootLayout({
       )}
     >
       <body
-        className="  mx-auto
+    //     className="  mx-auto
+    // flex
+    // min-h-screen
+    // w-full
+    // flex-col
+
+    // max-w-full
+    // sm:max-w-160
+    // md:max-w-3xl
+    // lg:max-w-5xl
+    // xl:max-w-7xl
+    // 2xl:max-w-[1600px]
+
+    // px-4
+    // sm:px-6
+    // lg:px-8"
+      >
+        <Navbar />
+
+        <main className="flex-1 mx-auto
     flex
     min-h-screen
     w-full
@@ -95,11 +114,7 @@ export default function RootLayout({
 
     px-4
     sm:px-6
-    lg:px-8"
-      >
-        <Navbar />
-
-        <main className="flex-1">{children}</main>
+    lg:px-8">{children}</main>
         <Footer />
       </body>
     </html>

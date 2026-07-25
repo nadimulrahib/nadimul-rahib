@@ -14,7 +14,14 @@ const QUICK_LINKS = [
 export default function Footer() {
   return (
     <footer className="w-full bg-background border-t border-border text-muted-foreground">
-      <div className="mx-auto container w-full justify-center items-center py-12">
+      <div className="mx-auto container w-full justify-center items-center py-12      sm:max-w-160
+    md:max-w-3xl
+    lg:max-w-5xl
+    xl:max-w-7xl
+    2xl:max-w-[1600px]     px-4
+    sm:px-6
+    lg:px-8
+    ">
         {/* মেইন গ্রিড লেআউট */}
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
           

@@ -55,7 +55,14 @@ export default function Navbar() {
       }`}
     >
       {/* মোবাইল ও ট্যাবলেটে ডানে-বামে সুন্দর প্যাডিংয়ের জন্য px-6 রাখা হয়েছে */}
-      <div className="mx-auto flex h-16  items-center justify-between">
+      <div className="mx-auto flex h-16  items-center justify-between     max-w-full
+    sm:max-w-160
+    md:max-w-3xl
+    lg:max-w-5xl
+    xl:max-w-7xl
+    2xl:max-w-[1600px]     px-4
+    sm:px-6
+    lg:px-8">
         {/* Logo */}
         <Link
           href="#top"
